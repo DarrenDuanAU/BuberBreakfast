@@ -1,0 +1,11 @@
+/Users/darren/Desktop/GitHub_projects/BuberBreakfast/BuberBreakfast.Contracts/bin/Debug/net7.0/BuberBreakfast.Contracts.deps.json
+/Users/darren/Desktop/GitHub_projects/BuberBreakfast/BuberBreakfast.Contracts/bin/Debug/net7.0/BuberBreakfast.Contracts.dll
+/Users/darren/Desktop/GitHub_projects/BuberBreakfast/BuberBreakfast.Contracts/bin/Debug/net7.0/BuberBreakfast.Contracts.pdb
+/Users/darren/Desktop/GitHub_projects/BuberBreakfast/BuberBreakfast.Contracts/obj/Debug/net7.0/BuberBreakfast.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/Users/darren/Desktop/GitHub_projects/BuberBreakfast/BuberBreakfast.Contracts/obj/Debug/net7.0/BuberBreakfast.Contracts.AssemblyInfoInputs.cache
+/Users/darren/Desktop/GitHub_projects/BuberBreakfast/BuberBreakfast.Contracts/obj/Debug/net7.0/BuberBreakfast.Contracts.AssemblyInfo.cs
+/Users/darren/Desktop/GitHub_projects/BuberBreakfast/BuberBreakfast.Contracts/obj/Debug/net7.0/BuberBreakfast.Contracts.csproj.CoreCompileInputs.cache
+/Users/darren/Desktop/GitHub_projects/BuberBreakfast/BuberBreakfast.Contracts/obj/Debug/net7.0/BuberBreakfast.Contracts.dll
+/Users/darren/Desktop/GitHub_projects/BuberBreakfast/BuberBreakfast.Contracts/obj/Debug/net7.0/refint/BuberBreakfast.Contracts.dll
+/Users/darren/Desktop/GitHub_projects/BuberBreakfast/BuberBreakfast.Contracts/obj/Debug/net7.0/BuberBreakfast.Contracts.pdb
+/Users/darren/Desktop/GitHub_projects/BuberBreakfast/BuberBreakfast.Contracts/obj/Debug/net7.0/ref/BuberBreakfast.Contracts.dll
