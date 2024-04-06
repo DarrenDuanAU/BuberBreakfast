@@ -4,6 +4,6 @@ public record CreateBreakfastRequest(
   string Name,
   string Description,
   DateTime StartDateTime,
-  DateTime EndDateTme,
+  DateTime EndDateTime,
   List<string> Savory,
   List<string> Sweet);

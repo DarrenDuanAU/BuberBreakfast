@@ -9,20 +9,36 @@ namespace BuberBreakfast.Controllers;
 [Route("breakfasts")]
 public class BreakfastsController : ControllerBase
 {
-    [HttpPost()]
+    [HttpPost]
     public IActionResult CreateBreakfast(CreateBreakfastRequest request)
     {   
-        // var breakfast = new Breakfast(
-        //     Guid.NewGuid(),
-        //     request.Name,
-        //     request.Description,
-        //     request.StartDateTime,
-        //     request.EndDateTme,
-        //     DateTime.UtcNow,
-        //     request.Savory,
-        //     request.Sweet
-        // );
-        return Ok(request);
+        var Breakfast = new Breakfast(
+            Guid.NewGuid(),
+            request.Name,
+            request.Description,
+            request.StartDateTime,
+            request.EndDateTime,
+            DateTime.Now,
+            request.Savory,
+            request.Sweet
+        );
+
+        //TODO: Save breakfast to database
+
+        var response = new BreakfastResponse(
+            Breakfast.Id,
+            Breakfast.Name,
+            Breakfast.Description,
+            Breakfast.StartDateTime,
+            Breakfast.EndDateTime,
+            Breakfast.LastModifiedDateTime,
+            Breakfast.Savory,
+            Breakfast.Sweet
+        );
+        return CreatedAtAction(
+            actionName: nameof(GetBreakfast),
+            routeValues: new { id = response.Id },
+            value: response);
     }
 
     [HttpGet("{id:guid}")]
